@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-    <Demo />
+    <Demo :n.sync="n" />
   </div>
 </template>
 
 <script>
-import Demo from "./components/Watch2";
+import Demo from "./components/Sync";
 export default {
   name: "app",
   data() {
-    return {};
+    return {
+      n: 0
+    };
   },
   components: {
     Demo
