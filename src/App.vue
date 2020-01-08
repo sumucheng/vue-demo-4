@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Demo from "./components/Sync";
+import Demo from "./components/Mixins";
 export default {
   name: "app",
   data() {
